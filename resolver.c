@@ -21,8 +21,6 @@ int main() {
   
   struct addrinfo *info;
   for (info = servinfo; info != NULL; info = info->ai_next) {
-    //printf("address : %s\n", info->ai_addr->sa_data);
-
     void *addr;
     char *ipver;
 
